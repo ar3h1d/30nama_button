@@ -6,15 +6,16 @@
 // @author       ar3h1d
 // @match        https://letterboxd.com/film/*
 // @grant        none
-// @license GPL3; https://github.com/ar3h1d/letterboxd_30nama_link/blob/main/LICENSE
-// @copyright     2023, ar3h1d (https://github.com/ar3h1d)
+// @icon         https://raw.githubusercontent.com/ar3h1d/letterboxd_30nama_link/main/ltb30n.png
+// @license GPL3;https://github.com/ar3h1d/letterboxd_30nama_link/blob/main/LICENSE
+// @copyright    2023, ar3h1d (https://github.com/ar3h1d)
 // ==/UserScript==
 
 (function() {
     'use strict';
 
     // Extract movie title from the page
-    const movieTitle = document.querySelector('.headline-1').textContent.trim().toLowerCase().replace(/ /g, '-').replace(/'/g, '');
+    const movieTitle = document.querySelector('.headline-1').textContent.trim().toLowerCase();
 
     // Check if the URL already contains the year
     const yearFromUrl = window.location.href.match(/-(\d{4})$/);
