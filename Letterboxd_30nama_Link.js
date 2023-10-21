@@ -1,14 +1,13 @@
 // ==UserScript==
 // @name         Letterboxd 30nama Link
 // @namespace    https://github.com/ar3h1d/letterboxd_30nama_link
-// @version      0.1
+// @version      0.1.1
 // @description  Adds a button to Letterboxd movie pages that links to the 30nama page of the movie.
 // @author       ar3h1d
 // @match        https://letterboxd.com/film/*
 // @grant        none
 // @icon         https://raw.githubusercontent.com/ar3h1d/letterboxd_30nama_link/main/ltb30n.png
-// @license GPL3;https://github.com/ar3h1d/letterboxd_30nama_link/blob/main/LICENSE
-// @copyright    2023, ar3h1d (https://github.com/ar3h1d)
+// @license      GPL3
 // ==/UserScript==
 
 (function() {
