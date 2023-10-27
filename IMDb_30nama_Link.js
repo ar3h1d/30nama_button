@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         IMDb 30nama Link
-// @namespace
+// @namespace    https://github.com/ar3h1d/letterboxd_30nama_link
 // @version      0.1
 // @description  Adds a button to IMDb movie pages that links to the 30nama page of the movie.
 // @author       ar3h1d
 // @match        https://www.imdb.com/title/*
 // @grant        none
-// @icon
+// @icon         https://raw.githubusercontent.com/ar3h1d/letterboxd_30nama_link/main/IMDb_30nama_icon.png
 // @license      GPL3
 // ==/UserScript==
 
